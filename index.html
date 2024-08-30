@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaksiku</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/ngodink.webp">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Pendaftaran Kompetisi Ngodink </h1>
+        <img src="img/ngodink.webp" alt="lambang nasi">
+            <form action="" method="">
+            <fieldset>
+                <legend>Pendaftaran Nasi</legend>
+                <div class="form_grup">
+                <label for="nama">Nama Lengkap</label>
+                <input id="nama" type="text" name="nama" required>
+                </div>
+                
+                <div class="form_grup">
+                <label for="tanggal"> Tanggal Lahir</label>
+                <input type="date" name="tanggal" id="tanggal" required>
+                </div>
+
+                <div class="form_grup">
+                <label for="kelamin">Jenis Kelamin</label>
+                <select name="kelamin" id="kelamin" required>
+                    <option value="">Pilih Jenis Kelamin</option>
+                    <option value="laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+                </div>
+
+                <div class="form_grup">
+                    <label for="alamat">Asal Perguruan Tinggi</label>
+                   <input type="text" name="asal" id="asal">
+                </div>
+
+                <div class="bahasa">
+                    <label for="bahasa">Bahasa yang dikuasai</label><br>
+                   <input type="checkbox" name="bahasa1"1 id="bahasa1" value="Javascript">
+                   <label for="bahasa1">Javascript</label><br>
+                   <input type="checkbox" name="bahasa2"1 id="bahasa2" value="C++">
+                   <label for="bahasa2">C++</label><br>
+                   <input type="checkbox" name="bahasa3"1 id="bahasa3" value="Java">
+                   <label for="bahasa3">Java</label><br>
+                   <input type="checkbox" name="bahasa4"1 id="bahasa4" value="Python">
+                   <label for="bahasa4">Python</label><br>
+                   <input type="checkbox" name="bahasa5"1 id="bahasa5" value="Ruby">
+                   <label for="bahasa5">Ruby</label><br>
+                   <input type="checkbox" name="bahasa6"1 id="bahasa6" value="Go">
+                   <label for="bahasa6">Go</label><br>
+                   <input type="checkbox" name="bahasa7"1 id="bahasa7" value="C#">
+                   <label for="bahasa7">C#</label><br>
+                   <input type="checkbox" name="bahasa8"1 id="bahasa8" value="R">
+                   <label for="bahasa8">R</label><br>
+                   <input type="checkbox" name="bahasa9"1 id="bahasa9" value="Rust">
+                   <label for="bahasa9">Rust</label><br>
+                   <input type="checkbox" name="bahasa10"1 id="bahasa10" value="Kotlin">
+                   <label for="bahasa10">Kotlin</label><br>
+                </div>
+
+                <div class="form_grup">
+                    <label for="pengalaman">Pengalaman Coding (0-10 Tahun)</label>
+                   <input type="range" name="pengalaman" id="pengalaman" min="0" max="10" step="1">
+                </div>
+
+                <div class="form_grup">
+                    <label for="motivasi">Motivasi</label>
+                    <textarea minlength="20" maxlength="200" name="motivasi" id="motivasi" placeholder="Jelaskan motivasi anda mengikuti kompetisi ini" rows="5" required></textarea>
+                </div>
+
+                <div class="form_grup">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="form_grup">
+                <label for="phone">Nomor Telepon</label>
+                <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                required 
+                pattern="\+62[0-9]{9,13}" 
+                placeholder="Contoh: +628990653495"
+                title="Masukkan dengan format +62XXXXXXXXXXX">
+                </div>
+
+                <div class="form_grup">
+                <label for="referal">Kode Refferal</label>
+                <input 
+                type="text" 
+                id="reff" 
+                name="reff" 
+                required 
+                pattern="[A-Za-z0-9]{6}" 
+                placeholder="XXXXXX"
+                title="Masukkan 6 digit kode refferal">
+                </div>
+
+                <div class="form_grup">
+                    <label for="cv">Upload CV</label>
+                    <input accept=".pdf" type="file" name="cv" id="cv" required >
+                </div>
+
+                <div class="form_grup">
+                    <button type="submit">Kirim</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
