@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    color: black;
+    width: 75vw;
+    margin: 0 auto;
+    background: wheat;
+    padding: 20px;
+}
+
+.bahasa{
+    margin-bottom: 10px;
+}
+.form_grup{
+    margin-bottom: 15px;
+}
+h1{
+    text-align: center;
+}
+img{
+    display: flex;
+    margin: 5px auto 15px ;
+    width: 30vw;
+    
+}
+
+.form_grup label{
+    display: block;
+    font-weight: bold;
+
+}
+
+.form_grup input,
+.form_grup textarea,
+.form_grup select {
+    width: 92%;
+    padding: 10px;
+    
+    border: 1px solid black;
+}
+
+.form_grup textarea{
+    resize: vertical;
+}
+
+.form_grup button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form_grup button:hover {
+    background-color: #95df41;
+}
